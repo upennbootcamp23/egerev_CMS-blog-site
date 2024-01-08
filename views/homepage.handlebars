@@ -1,0 +1,11 @@
+<ul class="list-group">
+  {{#each posts as |post|}}
+  <a href="posts/{{post.id}}">
+    <li class="">
+      {{> post-info post task='view' }}
+    </li>
+  </a>
+  {{/each}}
+</ul>
+
+

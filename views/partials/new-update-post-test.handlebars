@@ -1,0 +1,23 @@
+<div id="post-form" class="card text-white bg-secondary mx-auto w-50 my-3 {{task}}">
+    <div class="card-header ">
+        <h4>{{task}} Post</h4>
+    </div>
+
+    <div class="card-body">
+        <div class="px-4 py-3">
+            <div class="mb-3">
+                <label for="post-title" class="form-label">Post Title</label>
+                <input type="text" class="form-control" id="post-title" placeholder="Title" value="{{post.title}}">
+            </div>
+            <div class="mb-3">
+                <label for="post-body" class="form-label">Post</label>
+                <textarea class="form-control" id="post-body" placeholder="Post">{{post.body}}</textarea> 
+            </div>
+            <button id="createBtn" type="click" class="btn btn-dark">{{task}}</button>
+            {{#if edit}}
+            <button id="deleteBtn" type="click" class="btn btn-dark">delete</button>
+            {{/if}}
+        </div>
+    </div>
+
+</div>
