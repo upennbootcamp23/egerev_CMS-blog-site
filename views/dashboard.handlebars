@@ -1,0 +1,24 @@
+<h3 class="m-4 text-center">Dashbord "{{username}}"</h3>
+
+<ul class="list-group">
+  {{#each posts as |post|}}
+  <li class="">
+    <a href="dashboard/edit/{{id}}">
+
+      {{> post-info post task='details'}}
+
+    </a>
+  </li>
+  {{/each}}
+</ul>
+
+
+    {{> new-update-post-test this}}
+
+
+    <div class="p-3 d-flex justify-content-center">
+        <button id="newPostBtn" class="btn btn-dark btn-lg"> NEW POST </button>
+    </div>
+
+
+<script src="/javascript/new-post.js"></script>
