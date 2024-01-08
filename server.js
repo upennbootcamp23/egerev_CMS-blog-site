@@ -9,7 +9,6 @@ let SequelizeStore = require('connect-session-sequelize')(session.Store);
 let sequelize = require('./config/connection');
 let routes = require('./controllers');
 let helpers = require('./utils/helpers');
-const sequelize = require('../ModelViewController/config/connection');
 
 let application = express();
 
