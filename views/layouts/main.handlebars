@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STRAW HAT BLOG</title>
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body class="m-0">
+    <header class="p-3 mb-2 bg-secondary">
+
+      <nav class="navbar navbar-dark">
+        <h1>
+          <a class="text-white" href="/">STRAW HAT BLOG</a>
+        </h1>
+        <div>
+          <a class="text-white m-2 h5" href="/">Home Deck</a>
+
+        {{#if loggedIn}}
+          <a class="text-white m-2 h5" href="/dashboard">Dashboard</a>
+          <button class="btn btn-link text-white btn-lg mb-2"  id="logout">Sign Off</button>
+        {{else}}
+          <a class="text-white m-2 h5" href="/login">Sign On</a>
+        {{/if}}
+
+        </div>
+      </nav>
+    </header>
+
+    <main class="mw-100 mh-100">
+      {{{ body }}}
+    </main>
+
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
+</body>
+
+</html>

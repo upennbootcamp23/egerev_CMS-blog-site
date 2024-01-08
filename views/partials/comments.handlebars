@@ -1,0 +1,14 @@
+{{#if this}}
+<div class="card text-dark bg-light w-75 mx-5 my-2">
+{{#each this}}
+  <div class="card-header d-flex justify-content-between align-items-center">
+
+  </div>
+  <div class="card-body">
+    {{!-- <h5 class="card-title">Special title treatment</h5> --}}
+    <p class="card-text">{{comment_text}}</p>
+    <p class="m-0">-- {{user.username}}, {{format_date createdAt}}</p>
+  </div>
+  {{/each}}
+</div>
+{{/if}}
