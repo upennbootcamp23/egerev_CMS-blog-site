@@ -1,6 +1,8 @@
 # Alex Egerev's CMS Blog Site using MVC
-
-[insert images here]
+![dashboard](https://github.com/upennbootcamp23/egerev_CMS-blog-site/assets/143010411/6513fed8-fe13-4acf-92de-5e5cabdfd51a)
+![edit post](https://github.com/upennbootcamp23/egerev_CMS-blog-site/assets/143010411/7411a737-8c7d-4859-89d3-55a20f8497f7)
+![login](https://github.com/upennbootcamp23/egerev_CMS-blog-site/assets/143010411/6210dc26-97e4-453a-94f7-0d3aae76c816)
+![home deck](https://github.com/upennbootcamp23/egerev_CMS-blog-site/assets/143010411/bb18cb16-bb67-403e-b9da-68613dede30b)
 
 ## Description
 
@@ -24,6 +26,7 @@ This website is EXACTLY THE SAME AS ANY OTHER BLOG SITE OUT THERE:
 - The user can add, edit, or delete comments
 - The user can either login or sign up
 
+The only difference is that this is a student-created blog site.
 
 ## Credits
 
