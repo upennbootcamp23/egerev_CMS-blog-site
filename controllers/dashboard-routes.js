@@ -86,7 +86,7 @@ router.get('/', withAuth, (req, res) => {
 
 
 router.get('/newpost/', withAuth, (req, res) => {
-  const username = "Greate New Post";
+  const username = "Create New Post";
   const task = "new";
   res.render('dashboard', { loggedIn: true, username: username, task:task });
 
